@@ -1,8 +1,7 @@
 services:
   metabase:
-    image: metabase/metabase:v0.46.0
+    build: .
     ports:
-      - "433:3000"
-      - "80:3000"
+      - "8001:3000"
     volumes:
       - ./metabase.db_1:/metabase.db
