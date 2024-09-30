@@ -1,0 +1,14 @@
+{
+    "ssh_host": "your-ssh-host",
+    "ssh_user": "your-ssh-user",
+    "ssh_key": "path/to/your/ssh-key",
+    "mysql_db_host": "localhost",
+    "mysql_db_user": "dbuser",
+    "mysql_db_password": "password",
+    "mysql_db_name": "mydb",
+    "api_url": "https://graphql.api",
+    "api_token": "your-token",
+    "query_limit": 1000,
+    "query_offset": 0
+  }
+  
