@@ -15,9 +15,6 @@ RUN apk add -U bash fontconfig curl font-noto font-noto-arabic font-noto-hebrew 
 # add Metabase
 COPY --from=docker.io/metabase/metabase:latest /app /app
 
-COPY ./run_metabase.sh /app/run_metabase.sh
-RUN chmod +x /app/run_metabase.sh
-
 # expose our default runtime port
 EXPOSE 3000
 
