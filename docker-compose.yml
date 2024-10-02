@@ -4,4 +4,4 @@ services:
     ports:
       - "8001:3000"
     volumes:
-      - ./metabase.db_1:/metabase.db
+      - ./metabase.db:/metabase.db
